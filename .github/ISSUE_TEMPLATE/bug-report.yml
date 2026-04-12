@@ -1,0 +1,54 @@
+name: Bug Report
+description: Report a problem with @lapidist/eslint-config
+title: '[Bug]: '
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report!
+        Please fill out the fields below to help us reproduce and fix the issue.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of the problem.
+      placeholder: Unexpected ESLint error when using createConfig().
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Provide a minimal reproduction or config snippet.
+      placeholder: |
+        1. Add `@lapidist/eslint-config` to devDependencies
+        2. Create eslint.config.js with createConfig(...)
+        3. Run `eslint src/`
+        4. See error
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include Node.js version, @lapidist/eslint-config version, ESLint version, OS, etc.
+      value: |
+        - Node.js:
+        - @lapidist/eslint-config:
+        - eslint:
+        - OS:
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste any relevant terminal output or stack traces.
+      render: shell
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Links, references, or any additional information.
