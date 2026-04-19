@@ -20,15 +20,15 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=8",
-    "@typescript-eslint/parser": ">=8",
-    "eslint": ">=9"
+    "@typescript-eslint/eslint-plugin": "8.58.2",
+    "@typescript-eslint/parser": "8.58.2",
+    "eslint": "10.2.1"
   },
   "scripts": {
     "release": "changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.30.0",
+    "@changesets/cli": "2.30.0",
     "@typescript-eslint/eslint-plugin": "8.58.2",
     "@typescript-eslint/parser": "8.58.2",
     "eslint": "9.39.4"
