@@ -22,7 +22,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "8.62.1",
     "@typescript-eslint/parser": "8.62.1",
-    "eslint": "10.5.0"
+    "eslint": "10.6.0"
   },
   "scripts": {
     "release": "changeset publish"
@@ -31,7 +31,7 @@
     "@changesets/cli": "2.31.0",
     "@typescript-eslint/eslint-plugin": "8.62.1",
     "@typescript-eslint/parser": "8.62.1",
-    "eslint": "10.5.0"
+    "eslint": "10.6.0"
   },
   "files": ["index.js", "node.js"],
   "publishConfig": {
